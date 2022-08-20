@@ -39,7 +39,7 @@ User Stories on function `intRightTriangles(n)` is taken from [FreeCodeCamp - Co
 
 **Information Architecture**
 
-The function `intRightTriangles(n)` returns a number, where `n` is a number.
+The function `intRightTriangles(n)` returns a number, where `n` is a number between 12 and 2000.
 
 ## Features
 
