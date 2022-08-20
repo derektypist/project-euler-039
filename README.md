@@ -45,3 +45,25 @@ The function `intRightTriangles(n)` returns a number, where `n` is a number.
 
 Allows the user to enter a number as well as getting the perimeter less than or equal to the number entered.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
 
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-039) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
