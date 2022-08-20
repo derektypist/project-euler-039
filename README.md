@@ -12,7 +12,18 @@ Information at [Project Euler 039](https://projecteuler.net/problem=39)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 12 and 2000 (e.g. 500) and click on the Submit Button.  You will see the perimeter for the maximum number of solutions, unless you have made an invalid input.  For example, if you entered 500, you would expect the perimeter to be 420.  Click on the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 12 or greater than 2000
+- Entering a number that is not an integer
 
 As a user, I expect the function `intRightTriangles(500)` to return a number.
 
@@ -33,3 +44,4 @@ The function `intRightTriangles(n)` returns a number, where `n` is a number.
 ## Features
 
 Allows the user to enter a number as well as getting the perimeter less than or equal to the number entered.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
