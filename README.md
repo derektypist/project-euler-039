@@ -29,3 +29,7 @@ User Stories on function `intRightTriangles(n)` is taken from [FreeCodeCamp - Co
 **Information Architecture**
 
 The function `intRightTriangles(n)` returns a number, where `n` is a number.
+
+## Features
+
+Allows the user to enter a number as well as getting the perimeter less than or equal to the number entered.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
