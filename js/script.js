@@ -5,7 +5,7 @@ function getNumberInfo() {
     // Get the Value of the Input Field
     let num = document.getElementById("mynumber").value;
     // Check if input is valid
-    if (isNaN(num) || num.toString().length == 0 || num<12 || num>2000 || !Number.isInteger(Number(num))) {
+    if (isNaN(num) || num.toString().length == 0 || num < 12 || num > 2000 || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 12 and 2000.`;
     } else {
         // Remove Leading Zeros
@@ -21,9 +21,9 @@ function getNumberInfo() {
 // Function to Calculate the Number of Solutions for Perimeter p
 function numSolutions(p) {
     let counter = 0;
-    for (let side1=Math.floor(p/4); side1<p/2;side1++) {
-        let side2 = p * (p-2*side1)/(2*p-2*side1);
-        if (side1 > side2 && Number.isInteger(side2)) counter ++;
+    for (let side1 = Math.floor(p / 4); side1 < p / 2; side1++) {
+        let side2 = p * (p - 2 * side1) / (2 * p - 2 * side1);
+        if (side1 > side2 && Number.isInteger(side2)) counter++;
     }
     return counter;
 }
@@ -37,8 +37,8 @@ function numSolutions(p) {
 */
 function intRightTriangles(n) {
     let bestP = 0, mostSolutions = 0;
-    for (let p=12;p<n;p++) {
-        if (p%3===1) continue;
+    for (let p = 12; p < n; p++) {
+        if (p % 3 === 1) continue;
         const numSolutionsP = numSolutions(p);
         if (numSolutionsP > mostSolutions) {
             bestP = p;
